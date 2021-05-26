@@ -32,7 +32,7 @@ body {
 }
 
 .color-rosa {
-  color: pink;
+  color: #ff3773;
 }
 
 .color-verde {
@@ -71,12 +71,78 @@ body {
   line-height: 2rem;
 }
 
-.conteudo {
-  
+/* Cabeçalho */
+.cabecalho {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e9f2;
+  /* box-shadow: 0px 1px 0px #E5E9F2; */
+  padding: 26px 0px;
 }
 
-/* Cabeçalho */
 .conteudo-do-header {
   display: flex;
+  justify-content: space-between;
+}
+
+.informacoes-do-cabecalho,
+.informacoes-do-cabecalho nav {
+  display: flex;
+  align-items: center;
+}
+
+.informacoes-do-cabecalho img,
+.informacoes-do-cabecalho nav a {
+  margin-right: 32px;
+}
+
+.informacoes-do-cabecalho nav a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #18191f;
+}
+
+.botoes-lojas a {
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+/*Geral*/
+
+.texto-principal {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 32px;
+}
+
+.botao {
+  background: #28f5be;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 67px;
+  border-radius: 8px;
+}
+
+.botao:hover {
+  background: #ff3773;
+}
+
+/*Banner principal*/
+
+.banner-principal {
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner {
+  padding-top: 96px;
+  margin-bottom: 64px;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
