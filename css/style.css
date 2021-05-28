@@ -79,7 +79,8 @@ body {
   padding: 26px 0px;
 }
 
-.conteudo-do-header {
+.conteudo-do-header,
+.blocos-conquistas {
   display: flex;
   justify-content: space-between;
 }
@@ -145,4 +146,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* Nossas conquistas */
+
+.coluna {
+  width: 45%;
+}
+
+/* Formulario*/
+
+.formulario {
+  display: flex;
+  flex-direction: column;
 }
