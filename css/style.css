@@ -225,3 +225,51 @@ body {
 .link-roxo i {
   margin-left: 8px;
 }
+
+/* Genrencia de projetos */
+.todo-conteudo-gerencia-projetos {
+  background: #ff3773;
+  color: #fff;
+  padding: 68px 0;
+}
+
+.todo-conteudo-gerencia-projetos .botoes-lojas {
+  margin-top: 48px;
+}
+
+/* Rodape */
+.rodape {
+  background: #0b0d17;
+  padding: 56px 84px;
+  color: #fff;
+}
+
+.conteudo-rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-rodape ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.menu-rodape ul li {
+  margin-right: 24px;
+}
+
+.menu-rodape ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.botoes-download-rodape {
+  display: flex;
+  flex-direction: column;
+}
+
+.botoes-download-rodape a {
+  margin-top: 16px;
+}
