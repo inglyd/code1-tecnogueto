@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.conteudo {
+  width: 80%;
+  max-width: 1140px;
+  min-width: 60%;
+  margin: 0px auto 0px auto;
+}
+
+.bloco-de-recurso {
+  text-align: center;
+  width: 30%;
+  margin: 50px 30px 15px 0;
+}
+
+.bloco-de-recurso i {
+  font-size: 40px;
+}
+
+.color-lilas {
+  color: #8c30f5;
+}
+
+.color-rosa {
+  color: #ff3773;
+}
+
+.color-verde {
+  color: #2ec5ce;
+}
+
+.color-azul {
+  color: #1d1db1;
+}
+
+.titulo-bloco-de-recursos {
+  font-size: 24px;
+  margin-bottom: 8px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.todos-os-blocos-de-recurso {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.titulo-de-sessao {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titulo {
+  margin: 0.5rem 0;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.sub-titulo {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e9f2;
+  /* box-shadow: 0px 1px 0px #E5E9F2; */
+  padding: 26px 0px;
+}
+
+.conteudo-do-header,
+.conteudo-conquistas,
+.blocos-de-numeros,
+.bloco-depoimentos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacoes-do-cabecalho,
+.informacoes-do-cabecalho nav {
+  display: flex;
+  align-items: center;
+}
+
+.informacoes-do-cabecalho img,
+.informacoes-do-cabecalho nav a {
+  margin-right: 32px;
+}
+
+.informacoes-do-cabecalho nav a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #18191f;
+}
+
+.botoes-lojas a {
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+/*Geral*/
+
+.texto-principal {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 32px;
+}
+
+.botao {
+  background: #28f5be;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 67px;
+  border-radius: 8px;
+}
+
+.botao:hover {
+  background: #ff3773;
+}
+
+.margin-negative-110 {
+  margin-top: -6.875rem;
+}
+
+.margin-negative-110 .depoimento:first-child {
+  margin-bottom: 7.75rem;
+}
+
+.largura-350 {
+  width: 21.875rem;
+}
+
+
+.margin-negative-110 {
+  margin-top: -110px;
+}
+
+.margin-negative-110 .depoimento:first-child {
+  margin-bottom: 124px;
+}
+
+.largura-350 {
+  width: 350px;
+}
+
+
